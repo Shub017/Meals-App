@@ -21,14 +21,86 @@
 
 
 
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Your custom styles for the navigation bar */
+.navbar {
+  background-color: #343a40; /* Dark background color */
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#FavouriteButton {
+  color: #fff; /* White text color */
+  background-color: #dc3545; /* Bootstrap's danger color for red */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#FavouriteButton:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Your custom styles for the search form */
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ced4da; /* Bootstrap's default input border color */
+  border-radius: 4px;
+}
+
+.search-button {
+  background-color: #28a745; /* Bootstrap's success color for green */
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Additional styles for the result and favorites containers */
+.result,
+.favorites {
+  margin: 20px 0;
+}
+
+/* Customize as needed for other elements */
 
 
 
-/* Add these styles to your existing CSS or create a new stylesheet */
 
+
+/* Styling for the deatils page */
+.centerdiv{
+  padding-left: 20%;
+}
 .details-page {
   max-width: 600px;
-  margin: 20px auto;
+  margin: 30%;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -42,6 +114,7 @@
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
+  margin-left: 40%;
 }
 
 .details-page p {
@@ -75,4 +148,57 @@ a.more-details {
 
 .favourite{
   cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Card Styling*/
+
+.card {
+  border: 1px solid #ddd; /* Adding a border to the card */
+  border-radius: 8px; 
+  overflow: hidden; 
+  margin: 10px; 
+  transition: box-shadow 0.3s ease; /* Add a smooth transition for the box-shadow effect */
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow on hover */
+}
+
+.card-img-top {
+  width: 100%; /* Make the image fill the card width */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.card-body {
+  padding: 1.25rem; /* Add padding to the card body */
+}
+
+.card-title {
+  font-size: 1.25rem; 
+  margin-bottom: 0.75rem; 
+}
+
+.list-group-item {
+  border: none;
+}
+
+.card-link {
+  color: #007bff;
+  text-decoration: none; 
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.card-link:hover {
+  text-decoration: underline; 
+}
+
+body {
+  background-color: #71aded;
 }
