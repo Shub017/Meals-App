@@ -22,13 +22,14 @@ console.log("Script Loaded");
     const displayFavorites = () => {
         resultContainer.innerHTML = '';
         favoritesContainer.innerHTML = '';
+        
         favoriteMeals.forEach(favoriteMeal => {
             const favoriteItem = document.createElement('div');
             favoriteItem.innerHTML = `
-                <h3>${favoriteMeal.strMeal}</h3>
-                <img src="${favoriteMeal.strMealThumb}" alt="">
-                <p>${favoriteMeal.strInstructions}</p>
-                <h5>Cuisine Type: ${favoriteMeal.strArea}</h5>
+                <h3 style="font-size:40px; padding-left:20%;">${favoriteMeal.strMeal}</h3>
+                <img style = "padding-left:20%;" src="${favoriteMeal.strMealThumb}" alt="">
+                <p style="font-size:20px;">${favoriteMeal.strInstructions}</p>
+                <h5 style="font-size:30px;">Cuisine Type: ${favoriteMeal.strArea}</h5>
                 <button onclick="removeFavorite('${favoriteMeal.idMeal}')">Remove from Favorites</button>
                 <a href="javascript:void(0);" onclick="removeFavorite('${favoriteMeal.idMeal}')">
                     <img width="32" height="32" src="https://img.icons8.com/wired/64/hearts.png" alt="hearts">
@@ -180,7 +181,7 @@ console.log("Script Loaded");
                     // displayFavorites();
                 }
                 else{
-                    FavouriteButton.innerHTML = '<img width="64" height="64" src="Images\\icons8-heart-64.png" alt="hearts">';
+                    FavouriteButton.innerHTML = '<img src="Images\\icons8-heart-64.png" alt="hearts">';
                 }
             });
 
