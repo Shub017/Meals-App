@@ -20,9 +20,11 @@ console.log("Script Loaded");
 
     // Function to display favorites
     const displayFavorites = () => {
+        // Clear both Container
         resultContainer.innerHTML = '';
         favoritesContainer.innerHTML = '';
-        
+
+        // Iterate over result to display multiple results obtained
         favoriteMeals.forEach(favoriteMeal => {
             const favoriteItem = document.createElement('div');
             favoriteItem.innerHTML = `
@@ -88,6 +90,7 @@ console.log("Script Loaded");
     }
 
 
+    // To display search results
     function displayResults(resultMeals) {
 
         resultMeals.forEach(element => {
