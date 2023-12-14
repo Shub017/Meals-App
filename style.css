@@ -1,3 +1,4 @@
+/* Image used as a cover image */
 .collageImg{
     width: 100%;
     height: 700px;
@@ -21,7 +22,7 @@
 
 
 
-/* Reset some default styles */
+/* Reseting some default styles */
 body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
@@ -56,7 +57,7 @@ body {
   background-color: #c82333; /* Darker red on hover */
 }
 
-/* Your custom styles for the search form */
+/* for the search form */
 .search-form {
   display: flex;
   align-items: center;
@@ -65,12 +66,12 @@ body {
 .search-input {
   padding: 8px;
   margin-right: 8px;
-  border: 1px solid #ced4da; /* Bootstrap's default input border color */
+  border: 1px solid #ced4da; /* input border color */
   border-radius: 4px;
 }
 
 .search-button {
-  background-color: #28a745; /* Bootstrap's success color for green */
+  background-color: #28a745; /* color for green */
   color: #fff;
   border: none;
   padding: 8px 16px;
