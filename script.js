@@ -175,12 +175,12 @@ console.log("Script Loaded");
                 if (!isAlreadyFavorite) {
                     // If not in favorites, add to favorites
                     favoriteMeals.push(element);
-                    FavouriteButton.innerHTML = '<img width="64" height="64" src="Images\icons8-heart-64.png" alt="hearts">';
+                    FavouriteButton.innerHTML = '<img width="64" height="64" src="Images\\icons8-heart-64.png" alt="hearts">';
                     saveFavoritesToStorage();
                     // displayFavorites();
                 }
                 else{
-                    FavouriteButton.innerHTML = '<img width="64" height="64" src="Images\icons8-heart-64.png" alt="hearts">';
+                    FavouriteButton.innerHTML = '<img width="64" height="64" src="Images\\icons8-heart-64.png" alt="hearts">';
                 }
             });
 
