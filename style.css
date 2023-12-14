@@ -1,0 +1,78 @@
+.collageImg{
+    width: 100%;
+    height: 700px;
+    margin: 0;
+}
+
+.pinkBackground{
+    background-color: pink;
+}
+
+@media screen and (max-width: 900px) {
+    .collageImg {
+      height: 400px;
+    }
+  }
+
+.result{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+/* Add these styles to your existing CSS or create a new stylesheet */
+
+.details-page {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.details-page h3 {
+  color: #333;
+}
+
+.details-page img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.details-page p {
+  color: #666;
+}
+
+.details-page h5 {
+  margin-top: 10px;
+  color: #444;
+}
+
+.details-page button.more-details {
+  display: block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details-page button.more-details:hover {
+  background-color: #45a049;
+}
+
+a.more-details {
+  text-decoration: none;
+}
+
+.favourite{
+  cursor: pointer;
+}
