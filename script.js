@@ -209,7 +209,7 @@ console.log("Script Loaded");
         div.classList.add('details-page');
         div.innerHTML = `
             <h3>${element.strMeal}</h3>
-            <img src="${element.strMealThumb}" alt="">
+            <img src="${element.strMealThumb}" alt="" style="margin-left:0%;">
             <p>${element.strInstructions}</p>
             <h5>Cuisine Type: ${element.strArea}</h5>
             <a href="${element.strYoutube}" target="_blank" style="text-decoration: none;">
